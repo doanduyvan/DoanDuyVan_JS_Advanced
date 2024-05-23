@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .btn1{
+            display: flex;
+            gap: 10px;
+        }
+        .btn {
+            padding: 10px;
+            background-color: green;
+            width: fit-content;
+            color: white;
+            font-size: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            user-select: none;
+        }
+        .btn.c{
+            background-color: red;
+        }
+
+        .none{
+            display: none;
+        }
+        .block{
+            display: block;
+        }
+    </style>
 </head>
+
 <body>
-    
+
+    <h2>LAB 2.3</h2>
+    <div>
+        <textarea name="" id="text21" rows="10" cols="50">
+            underscore_case
+            first_name
+            Some_Variable
+            calculate_AGE
+            delayed_departure
+        </textarea>
+    </div>
+    <div class="btn1">
+        <div class="btn c" id="next">Chuyển</div>
+        <div class="btn none" id="prev">Thử Lại</div>
+    </div>
+
+    <br><br>
+
+    <h2>LAB 2.4 </h2>
+    <h1>Đây là thẻ H1</h1>
+
     <script src="main.js"></script>
 </body>
+
 </html>
