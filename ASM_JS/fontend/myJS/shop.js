@@ -33,7 +33,7 @@ function showProduct(data) {
     data.forEach(element => {
 
         let div = document.createElement("div");
-        div.classList.add("col-md-6", "col-lg-3", "ftco-animate","ftco-animated","fadeInUp");
+        div.classList.add("col-md-6", "col-lg-3", "ftco-animate", "ftco-animated", "fadeInUp");
         div.innerHTML = `
         <div class="product">
             <a href="product-single.html?id=${element.id}" class="img-prod"><img class="img-fluid customimg" src="${urlImg + element.img}" alt="">
@@ -75,11 +75,11 @@ function format(number) {
     return Number(number).toLocaleString();
 }
 
-function load(bool){
+function load(bool) {
     let loading = document.getElementById('loading');
-    if(bool == 1){
+    if (bool == 1) {
         loading.style.display = 'block';
-    }else{
+    } else {
         loading.style.display = 'none';
     }
 }
