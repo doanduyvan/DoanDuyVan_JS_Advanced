@@ -1,0 +1,237 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .section1{
+            max-width: 1500px;
+            margin: 0 auto;
+            margin-top: 30px;
+            box-shadow: 0 0 10px gray;
+            display: flex;
+            border-radius: 10px;
+        }
+        .aside{
+            width: 180px;
+            border-right: 1px solid gray;
+        }
+        .main{
+            flex: 1;
+            padding: 20px;
+        }
+        .list ul{
+            list-style: none;
+            margin: 0;
+            display: inline;
+            width: 100%;
+        }
+        .list a{
+        text-decoration: none;
+        color: black;
+        }
+        .list li{
+            display: block;
+            padding: 10px 20px;
+            border-bottom: 1px solid gray;
+        }
+        .list li:last-child{
+            border: none;
+        }
+        .list li:hover a{
+            color: orange;
+        }
+        .user{
+            padding: 20px 0;
+            text-align: center;
+        }
+        .user h3{
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        .bang table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .bang table th{
+            padding: 10px;
+        }
+        .bang table td{
+            padding: 10px;
+        }
+        .bang table td:nth-child(8),
+        .bang table td:nth-child(9){
+            text-align: center;
+        }
+        .bang table td a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .bang table td a:hover{
+            color: orange;
+        }
+        .them{
+            width: 100%;
+        }
+        .them .item{
+            margin-top: 15px;
+        }
+        .them .item>*:last-child{
+            display: block;
+            width: 98%;
+            outline: none;
+            padding: 8px;
+            
+        }
+        .btn-them{
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: 1px solid gray;
+            background-color: green;
+            color: white;
+            cursor: pointer;
+        }
+        .btn-them:hover{
+            transform: scale(1.1);
+        }
+        .showimg{
+            width: 200px;
+            margin-top: 35px;
+        }
+        .showimg img{
+            width: 100%;
+        }
+        .hinhitem{
+            width: 200px;
+        }
+        .hinhitem img{
+            width: 100%;
+        }
+        .anhmota{
+            display: flex;
+            gap: 15px;
+        }
+        .item.avt, .item.mt{
+            border: 1px solid gray;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .hinh{
+            width: 200px;
+        }
+        .hinh img{
+            width: 100%;
+        }
+        .bang td{
+            text-align: center;
+        }
+        .user>a{
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: gray;
+        }
+        .user>a:hover{
+            color: blue;
+        }
+
+        .btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+    </style>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class='section1'>
+        <div class="aside">
+            <div class="user">
+                <h3>Đoàn Duy Vấn</h3>
+                <a href="">Đăng xuất</a>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="index.html">Danh sách</a></li>
+                    <li><a href="addproduct.html">Thêm sản phẩm</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main">
+     
+            
+
+<div class="them">
+    <form action="" method='post' enctype="multipart/form-data" id="form">
+    <input type="text" name="id" hidden>
+    <div class="item">
+        <label for="">Tên sản phẩm</label>
+        <input type="text" name = "name">
+    </div>
+    <div class="item">
+        <label for="">Giá sản phẩm</label>
+        <input type="number" name="price">
+    </div>
+
+    <div class="item">
+        <label for="">Mô tả ngắn</label>
+        <textarea type="text" name="des" id="" cols="30" rows="5"></textarea>
+    </div>
+   
+    <div class="showimg">
+        <img src="" alt="" id="previewImage">
+    </div>
+    <div class="item">
+        <label for="">Ảnh sản phẩm</label>
+        <input type="file" id="imageInput" name="img" accept="image/*" >
+    </div>
+
+    <div class="item btn">
+        <div><input type="submit" class='btn-them' value="Update"></input></div>
+        <div><input type="button" value="Reset" class="btn-them reset" id="reset"></div>
+    </div>
+    </form>
+</div> 
+
+            
+            <script>
+                    function kiemtra(){
+                        return confirm("Bạn chắc chắn muốn xóa sản phẩm này?");
+                    }
+                </script>
+
+
+
+        </div>
+    </section>
+
+
+    <div id="toasts"></div>
+    <!-- loading -->
+    <div class="loading" id="loading">
+        <div class="load">
+            <div class="load1">
+                <svg class="pl" width="240" height="240" viewBox="0 0 240 240">
+                    <circle class="pl__ring pl__ring--a" cx="120" cy="120" r="105" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 660" stroke-dashoffset="-330" stroke-linecap="round"></circle>
+                    <circle class="pl__ring pl__ring--b" cx="120" cy="120" r="35" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 220" stroke-dashoffset="-110" stroke-linecap="round"></circle>
+                    <circle class="pl__ring pl__ring--c" cx="85" cy="120" r="70" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 440" stroke-linecap="round"></circle>
+                    <circle class="pl__ring pl__ring--d" cx="155" cy="120" r="70" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 440" stroke-linecap="round"></circle>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/main.js"></script>
+    <script src='./js/editproduct.js'></script>
+</body>
+</html>
