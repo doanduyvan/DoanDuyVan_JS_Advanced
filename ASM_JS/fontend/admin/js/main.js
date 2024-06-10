@@ -37,3 +37,13 @@ function toast({
     toasts.appendChild(toast);
 }
 
+// loading
+
+// function load(bool){
+//     let loading = document.getElementById('loading');
+//     if(bool == 1){
+//         loading.style.display = 'block';
+//     }else{
+//         loading.style.display = 'none';
+//     }
+// }
