@@ -1,0 +1,86 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "products": [
+    {
+      "id": "6a5c",
+      "name": "sarn pam 2",
+      "price": 434,
+      "description": "Đây là sản phẩm rất xịn",
+      "image": "https://clickbuy.com.vn/uploads/images/2023/10/ip-15-black.jpg"
+    },
+    {
+      "id": "79cc",
+      "name": "iPhone 15 Pro Max 256GB VN/A - Tặng BH rơi vỡ vào nước",
+      "price": 28550000,
+      "description": "iPhone 15 Pro Max 256GB VN/A Máy mới 100%, nguyên seal hộp Apple Việt Nam. Hộp, Sách hướng dẫn, Cây lấy sim, Cáp Type C - Type C",
+      "image": "https://clickbuy.com.vn/uploads/images/2023/09/iphone-15-pro-max-titan-1.png"
+    },
+    {
+      "id": "ea46",
+      "name": "iPhone 15 Plus 128GB VN/A - Tặng BH rơi vỡ vào nước",
+      "price": 21690000,
+      "description": "Máy mới 100%, nguyên seal hộp, chính hãng Apple Việt Nam. Hộp, Sách hướng dẫn, Cây lấy sim, Cáp Type C - Type C\n\nClickbuy là đại lý bán lẻ uỷ quyền iPhone chính hãng của Apple Việt Nam\n\nBao test 1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple.",
+      "image": "https://clickbuy.com.vn/uploads/images/2023/09/iphone-15-hong-dai-dien-1.png"
+    },
+    {
+      "id": "805e",
+      "name": "iPhone 13 128GB chính hãng VN/A - Tặng BH rơi vỡ vào nước",
+      "price": 13190000,
+      "description": "Máy mới nguyên seal Fullbox chính hãng VN/A, chưa Active. Bảo hành 12 tháng tại trung tâm bảo hành ủy quyền chính hãng.",
+      "image": "https://clickbuy.com.vn/uploads/images/2022/03/avt-iphone-13-green.png"
+    },
+    {
+      "id": "b150",
+      "name": "iPhone 11 chính hãng 64GB VN/A - Tặng BH rơi vỡ vào nước",
+      "price": 8490000,
+      "description": "Máy mới nguyên seal Fullbox chính hãng VN/A, chưa Active. Bảo hành 12 tháng tại trung tâm bảo hành ủy quyền chính hãng.",
+      "image": "https://clickbuy.com.vn/uploads/pro/apple-iphone-11-64gb-chinh-hang-vn-ahtml_36322.jpg"
+    },
+    {
+      "id": "0a24",
+      "name": "iPhone 12 64GB Chính hãng VN/A - Tặng BH rơi vỡ vào nước",
+      "price": 10990000,
+      "description": "Máy mới nguyên seal Fullbox chính hãng VN/A, chưa Active. Bảo hành 12 tháng tại trung tâm bảo hành ủy quyền chính hãng.",
+      "image": "https://clickbuy.com.vn/uploads/images/2020/10/iphone-12-tim.png"
+    },
+    {
+      "id": "fd34",
+      "name": "Samsung Galaxy S24 Ultra (5G) 12GB 256GB Chính Hãng",
+      "price": 23590000,
+      "description": "- Máy mới chính hãng 100%\n\n- Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất.\n\n- Phụ kiện gồm: Cáp, que chọt sim, sách hướng dẫn.\n\n- Bảo hành chính hãng 12 tháng tại Samsung trên toàn quốc.\n\n- Lỗi là đổi trong 30 ngày.",
+      "image": "https://clickbuy.com.vn/uploads/pro/2_47740.png"
+    },
+    {
+      "id": "d90a",
+      "name": "Samsung Galaxy A05 (4G) 4GB 64GB Chính Hãng",
+      "price": 2390000,
+      "description": "- Máy mới chính hãng 100%\n\n- Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất.\n\n- Phụ kiện gồm: Cáp, que chọt sim, sách hướng dẫn.\n\n- Bảo hành chính hãng 12 tháng tại Samsung trên toàn quốc.\n\n- Lỗi là đổi trong 30 ngày",
+      "image": "https://clickbuy.com.vn/uploads/pro/samsung-galaxy-a05-64gb_197634.png"
+    },
+    {
+      "id": "9a8d",
+      "name": "Samsung Galaxy Z Flip5 8GB 512GB Chính Hãng",
+      "price": 15390000,
+      "description": "– Máy mới chính hãng 100%\n\n– Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất.\n\n– Phụ kiện gồm: Cáp, que chọt sim, sách hướng dẫn.\n\n– Bảo hành chính hãng 12 tháng tại Samsung trên toàn quốc.\n\n– Lỗi là đổi trong 30 ngày.",
+      "image": "https://clickbuy.com.vn/uploads/images/2023/07/ava-zflip5-mint.png"
+    },
+    {
+      "id": "4f20",
+      "name": "Samsung Galaxy Z Fold5 12GB 256GB Chính Hãng",
+      "price": 27990000,
+      "description": "– Máy mới chính hãng 100%\n\n– Nguyên hộp, đầy đủ phụ kiện từ nhà sản xuất.\n\n– Phụ kiện gồm: Cáp, que chọt sim, sách hướng dẫn.\n\n– Bảo hành chính hãng 12 tháng tại Samsung trên toàn quốc.\n\n– Lỗi là đổi trong 30 ngày.",
+      "image": "https://clickbuy.com.vn/uploads/images/2023/07/ava-Zfold5-bluepng-3.png"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "fontend_use_json_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "startjson": "json-server --watch fakedb/db.json",
+    "t1": "json-server --watch fakedb/test.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1"
+  }
+}
