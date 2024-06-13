@@ -2,8 +2,14 @@
 
 Lab đang nộp hiện tại là lab 5 / 6 /7 / 8
 
+------------------------ASM---------------------------
+
+sử dụng jsonserver để Fake API dùng Rest API trong Folder fonend_use_json_server
+
 
 ------------------------ASM---------------------------
+
+Sử dụng API thật, có server và client trong Folder fontend
 
 - đây là trang chủ
 
